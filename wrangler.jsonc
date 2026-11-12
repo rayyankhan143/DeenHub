@@ -2,6 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "deenhub",
   "compatibility_date": "2026-11-01",
+  // Production site: deenhub.<your-subdomain>.workers.dev
+  "workers_dev": true,
+  // Preview links for test builds from other branches
+  "preview_urls": true,
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
